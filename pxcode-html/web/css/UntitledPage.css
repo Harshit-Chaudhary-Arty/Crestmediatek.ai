@@ -52,7 +52,7 @@
   position: relative;
   display: flex;
   gap: 0px 29px;
-  margin: 64px 4.01% 17px auto;
+  margin: 15px 4.01% 17px auto;
   background-color: #222222;
   width: 516px;
 }
@@ -65,7 +65,7 @@
 }
 @media (max-width: 1199px) {
   .untitled-page .imageRow {
-    margin: 10px 4.01% 17px auto;
+    margin: 15px 4.01% 17px auto;
   }
 }
 .untitled-page .secondaryImage {
@@ -127,7 +127,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  margin: 38.5px 0px 2.5px;
+  margin: 15px 0px 2.5px;
   min-width: 0px;
   font: 400 17.0625px/1.33 "Inter", Helvetica, Arial, serif;
   color: #f5f3e6;
@@ -352,7 +352,7 @@
 }
 .untitled-page .backgroundImage {
   position: absolute;
-  top: -25px;
+  top: -50px;
   left: 0px;
   width: 179px;
   height: 218px;
