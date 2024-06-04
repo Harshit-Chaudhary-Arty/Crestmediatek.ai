@@ -38,6 +38,8 @@ body{
 @media (max-width: 479px) {
   .untitled-page .flexCol {
     gap: 30px 0px;
+    margin-top: -5%;
+
   }
 }
 .untitled-page .imageContentBox {
@@ -52,6 +54,8 @@ body{
 @media (max-width: 479px) {
   .untitled-page .imageContentBox {
     height: 40px;
+    margin-left: 5%;
+
   }
 }
 .untitled-page .imageRow {
@@ -188,6 +192,9 @@ body{
   .untitled-page .stepsCol {
     -moz-column-gap: 50px;
     column-gap: 50px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 58%;
   }
 }
 .untitled-page .processTitle {
@@ -315,6 +322,7 @@ body{
   .untitled-page .sloganRow {
     flex-direction: column;
     gap: 8px 30px;
+    /* margin-left: 5%; */
   }
 }
 .untitled-page .sloganImage {
@@ -353,12 +361,15 @@ body{
     margin-top: unset;
     margin-bottom: unset;
     width: 100%;
-    font-size: 60px;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 8%;
   }
 }
 .untitled-page .backgroundImage {
   position: absolute;
-  top: -20px;
+  top: -25px;
   left: 0px;
   width: 150px;
   height: 200x;
@@ -372,9 +383,11 @@ body{
 }
 @media (max-width: 479px) {
   .untitled-page .backgroundImage {
-    top: 0px;
+    top: -18px;
     width: 50px;
     height: 50px;
+    margin-left: 4%;
+
   }
 }
 .untitled-page .designSection {
@@ -382,6 +395,15 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 479px) {
+  .untitled-page .designSection {
+    margin-left: 5%;
+
+  }
+}
+
+
 .untitled-page .flexRow {
   position: relative;
   display: flex;
@@ -603,7 +625,7 @@ body{
   .untitled-page .flexRow2 {
     flex-direction: column;
     align-items: center;
-    gap: 30px 9px;
+    gap: 12px 9px;
   }
 }
 .untitled-page .textABTesting {
@@ -708,7 +730,7 @@ body{
   .untitled-page .flexRow11 {
     flex-direction: column;
     align-items: center;
-    gap: 30px 9px;
+    gap: 12px 9px;
   }
 }
 .untitled-page .textWebsitesUserSurveyAnalysis {
@@ -804,7 +826,7 @@ body{
   .untitled-page .flexRow3 {
     flex-direction: column;
     align-items: center;
-    gap: 30px 9px;
+    gap: 12px 9px;
   }
 }
 .untitled-page .contentBoxWebsites {
@@ -1352,6 +1374,7 @@ body{
 @media (max-width: 479px) {
   .untitled-page .subtitleDiscovery1 {
     font-size: 16px;
+    width: 100%;
   }
 }
 .untitled-page .flexRow41 {
@@ -1432,11 +1455,14 @@ body{
 @media (max-width: 1399px) {
   .untitled-page .subtitleDiscovery2 {
     font-size: 18px;
+
   }
 }
 @media (max-width: 479px) {
   .untitled-page .subtitleDiscovery2 {
     font-size: 16px;
+    width: 120%;
+
   }
 }
 .untitled-page .flexRow5 {
@@ -1512,6 +1538,8 @@ body{
 @media (max-width: 479px) {
   .untitled-page .subtitleDiscovery3 {
     font-size: 16px;
+    width: 120%;
+
   }
 }
 .untitled-page .imageDiscovery4 {
@@ -1565,6 +1593,8 @@ body{
 @media (max-width: 479px) {
   .untitled-page .subtitleDiscovery4 {
     font-size: 16px;
+    width: 120%;
+
   }
 }
 .untitled-page .imageDiscovery5 {
@@ -1618,6 +1648,8 @@ body{
 @media (max-width: 479px) {
   .untitled-page .subtitleDiscovery5 {
     font-size: 16px;
+    width: 120%;
+
   }
 }
 .untitled-page .section3 {
@@ -1630,6 +1662,13 @@ body{
     height: 2800px;
   }
 }
+@media (max-width: 450px) {
+  .untitled-page .section3 {
+    height: 2800px;
+  }
+}
+
+
 .untitled-page .medium_title2 {
   position: relative;
   display: flex;
@@ -1648,16 +1687,17 @@ body{
 .untitled-page .flex_col {
   position: absolute;
   top: 145.5px;
-  left: 0;
+  left: 50%;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 1883.5px;
+  margin-left: 5%;
 }
 @media (max-width: 1919px) {
   .untitled-page .flex_col {
     top: 0px;
-    left: 0px;
+    left: 50%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -1665,8 +1705,28 @@ body{
     column-gap: 8px;
     width: 100%;
     height: 100%;
+    
   }
 }
+@media (max-width: 1919px) {
+  .untitled-page .flex_col {
+    top: 0px;
+    left: 0%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    -moz-column-gap: 8px;
+    column-gap: 8px;
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+
+
+
+
+
 .untitled-page .hero_title7 {
   position: relative;
   display: flex;
@@ -1676,14 +1736,21 @@ body{
 }
 @media (max-width: 1919px) {
   .untitled-page .hero_title7 {
-    margin-top: unset;
-    margin-right: unset;
-    margin-bottom: unset;
-    margin-left: unset;
+    
     width: 90%;
     font-size: 90px;
   }
 }
+@media (max-width: 478px) {
+  .untitled-page .hero_title7 {
+    
+    width: 90%;
+    font-size: 60px;
+  }
+}
+
+
+
 .untitled-page .flex_col1 {
   position: relative;
   display: flex;
@@ -1701,6 +1768,17 @@ body{
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .untitled-page .flex_col1 {
+    margin-top: unset;
+    margin-right: unset;
+    margin-bottom: unset;
+    margin-left: unset;
+    width: 100%;
+  }
+}
+
 .untitled-page .image20 {
   position: relative;
   width: 100%;
